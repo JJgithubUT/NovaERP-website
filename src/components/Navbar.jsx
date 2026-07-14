@@ -7,7 +7,6 @@ const Navbar = () => {
     { name: 'Quiénes Somos', href: '#quienes-somos' },
     { name: 'Sobre nosotros', href: '#sobre-nosotros' },
     { name: 'Proyectos', href: '#proyectos' },
-    { name: 'Contacto', href: '#contacto' },
   ];
 
   return (
