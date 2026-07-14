@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
-const ProjectCard = ({ title, description, tags = [], image, link }) => {
+const ProjectCard = ({ title, description, tags = [], image, link, disable }) => {
+    const [isVisible, setIsVisible] = useState(true);
+
+    const disableCard = () => {
+        setIsVisible(false);
+    };
+
+    if (!isVisible) return null;
+
     return (
         <div className="group bg-[#AFAFAF]/10 border border-[#AFAFAF]/30 rounded-xl overflow-hidden shadow-sm hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
             <div className="relative h-48 overflow-hidden bg-[#0D0D0D]">
@@ -62,6 +70,15 @@ const ProjectCard = ({ title, description, tags = [], image, link }) => {
                             />
                         </svg>
                     </a>
+                )}
+
+                {disable && (
+                    <button
+                        onClick={disableCard}
+                        className="text-xs font-bold text-[#AFAFAF]/10  px-2 py-1 rounded"
+                    >
+                        O
+                    </button>
                 )}
             </div>
         </div>

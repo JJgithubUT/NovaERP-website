@@ -9,6 +9,7 @@ const projects = [
     tags: ["Angular", "Django", "PostgreSQL"],
     image: "https://www.techzine.eu/wp-content/uploads/2025/02/shutterstock_2471711495.jpg",
     link: "https://tu-sitio-web-o-repo.com", // El enlace real al proyecto si lo tienes
+    disable: true
   },
   {
     title: "Climatic ORG",
@@ -17,6 +18,7 @@ const projects = [
     tags: ["Cloud Google", "Flutter - Dart", "IOT"],
     image: "/climatic.jpg", // Busca directo en la raíz de public
     link: "#", 
+    disable: true
   },
   {
     title: "Seani",
@@ -25,6 +27,7 @@ const projects = [
     tags: ["Seguridad", "Integraciones", "REST"],
     image: "/seani.jpeg", // Busca directo en la raíz de public
     link: "#",
+    disable: true
   },
   {
     title: "👢",
@@ -33,6 +36,7 @@ const projects = [
     tags: ["👢", "💫", "👢", "🌟"],
     image: "../../public/vaquera.jpeg", // Busca directo en la raíz de public
     link: "#",
+    disable: true
   },
 ];
 
