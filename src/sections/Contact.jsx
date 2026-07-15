@@ -55,8 +55,8 @@ const Contact = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 002-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </div>
-              <a href="mailto:contacto@novasolutions.com" className="ml-4 text-base md:text-lg font-mono font-bold tracking-tight">
-                contacto@novasolutions.com
+              <a href="mailto:novasolutions@gmail.com" className="ml-4 text-base md:text-lg font-mono font-bold tracking-tight">
+                novasolutions@gmail.com
               </a>
             </div>
 
@@ -68,7 +68,7 @@ const Contact = () => {
                 </svg>
               </div>
               <a href="tel:+522461234567" className="ml-4 text-base md:text-lg font-mono font-bold tracking-tight">
-                +52 (246) 123-4567
+                247 110 20 36
               </a>
             </div>
 
@@ -81,7 +81,7 @@ const Contact = () => {
                 </svg>
               </div>
               <span className="ml-4 text-base md:text-lg font-bold tracking-tight">
-                Tlaxcala, México
+                Huamantla, Tlaxcala
               </span>
             </div>
           </div>
