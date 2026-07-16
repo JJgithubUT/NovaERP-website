@@ -33,11 +33,20 @@ const Navbar = () => {
     <nav className="bg-[#0D0D0D] border-b border-[#AFAFAF]/20 fixed top-0 left-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          
+
           {/* Logo / Nombre */}
           <div className="flex-shrink-0 flex items-center">
-            <span className="text-2xl font-bold tracking-wider text-[#F2F2F2]">
-              NOVA<span className="text-[#73030D]">.</span>SOLUTIONS
+            <span className="flex items-center gap-3 text-2xl font-bold tracking-wider text-[#F2F2F2]">
+              <img
+                src="https://i.ibb.co/gM3HVM1K/logo-navbar.png"
+                alt="Logo NovaERP"
+                className="h-8 w-auto object-contain"
+              />
+              {/* El texto del logo */}
+              <span>
+                NOVA<span className="text-[#73030D]">.</span>SOLUTIONS
+              </span>
+
             </span>
           </div>
 
